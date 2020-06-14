@@ -305,6 +305,16 @@ body, html {
         border-radius:5px;
     }
 
+    .form {
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+
+    .subtext {
+        width:100%;
+    }
+
     
 }
 
@@ -495,6 +505,7 @@ body, html {
  }
 
  .mastheadP {
+     flex-direction:row;
      padding:3rem;
      background-color:	#eeb27a;
      background:none;
@@ -507,6 +518,27 @@ body, html {
          font-size:20px;
          margin-top:10px;
          color:white;
+     }
+
+     .subtext {
+         width:50%;
+         justify-content: center;
+         align-items: center;
+         display:flex;
+         flex-direction:column;
+
+         p {
+             font-size:35px;
+         }
+
+         .form {
+             width:80%;
+             display:flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction:column;
+         }
+         
      }
  }
 

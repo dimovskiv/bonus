@@ -366,6 +366,21 @@ body, html {
   border-radius: 5px;
 }
 
+.mastheadP .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.mastheadP .subtext {
+  width: 100%;
+}
+
 .slots {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -545,6 +560,10 @@ body, html {
     font-size: 20px;
   }
   .mastheadP {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     padding: 3rem;
     background-color: #eeb27a;
     background: none;
@@ -557,6 +576,41 @@ body, html {
     font-size: 20px;
     margin-top: 10px;
     color: white;
+  }
+  .mastheadP .subtext {
+    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mastheadP .subtext p {
+    font-size: 35px;
+  }
+  .mastheadP .subtext .form {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .navbar {
     background-color: rgba(20, 74, 98, 0.5) !important;
