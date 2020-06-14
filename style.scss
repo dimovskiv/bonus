@@ -1,10 +1,10 @@
 body {
-    background-color:black;
+    background-color:	#eeb27a;
     padding:20px;
-    font-family: 'Roboto'
+    font-family: 'Sriracha'
     
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
 
 a {
     text-decoration:none !important;
@@ -38,6 +38,7 @@ body, html {
 }
 
 .masthead {
+    
     height:100%;
     background-image: url("bg.png");
     background-repeat: no-repeat;
@@ -48,7 +49,7 @@ body, html {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top:3rem;
+    padding-top:5rem;
 
     .img-fluid {
         height:120px;
@@ -82,7 +83,7 @@ body, html {
     padding-top:3rem !important;
     padding:2rem;
 
-    background-color:black;
+    background-color:#eeb27a;
 
     .item {
         width:100%;
@@ -229,7 +230,7 @@ body, html {
 
 .termsC {
     padding-top:5rem !important;
-    background-color:black!important;
+    background-color:	#ad7247!important;
     
     a {
         color:white;
@@ -328,7 +329,7 @@ body, html {
     align-items: center;
 
     a {
-        background-color:#154961;
+        background-color:#222222;
         color:white!important;
         padding:10px;
         border-radius:50px;
@@ -341,7 +342,7 @@ body, html {
         padding-top:4rem;
         flex-direction:row !important;
         .item {
-            width:33.3%;
+            width:25%;
             .img-fluid {
                 width:98%;
                 height:600px;
@@ -431,7 +432,7 @@ body, html {
 
     .termsC {
         padding-top:10rem !important;
-        background-color:black !important;
+        background-color:	#ad7247 !important;
         li, p {
             font-size:30px !important;
             color:white !important;
@@ -485,7 +486,7 @@ body, html {
 
  .mastheadP {
      padding:3rem;
-     background-color:154961!important;
+     background-color:	#eeb27a;
      background:none;
      background-repeat: repeat-y;
      h3 {
